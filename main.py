@@ -5,3 +5,6 @@ from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
 from VGG16 import *
 from data_preprocess import *
+
+if __name__ == "__main__":
+  
