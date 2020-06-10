@@ -8,8 +8,6 @@ import fnmatch
 from sklearn.model_selection import train_test_split
 from glob import glob
 
-
-
 imagePatches = glob('./IDC_regular_ps50_idx5/**/*.png',recursive = True)
 
 def multiplot():
