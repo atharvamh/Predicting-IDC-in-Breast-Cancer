@@ -6,11 +6,6 @@ import matplotlib.pyplot as plt
 import fnmatch
 
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import precision_score
-from sklearn.metrics import recall_score
 from glob import glob
 
 
