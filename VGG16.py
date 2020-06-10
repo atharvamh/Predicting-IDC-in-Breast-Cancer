@@ -1,8 +1,6 @@
 import keras
 from keras.models import Sequential
 from keras.layers import Dense, Conv2D, MaxPool2D, Flatten
-from keras.optimizers import Adam
-from keras.callbacks import ModelCheckpoint, EarlyStopping
 
 def vgg16_arch():
   model = Sequential()
